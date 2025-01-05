@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
 # DOGGIPEDIA
 Aplikasi web yang memberikan informasi lengkap tentang berbagai ras anjing.
 Doggipedia adalah sebuah aplikasi web yang dirancang untuk para pecinta anjing yang ingin mengetahui lebih dalam tentang berbagai ras anjing di dunia. Dengan menggunakan API dari The Dog API, aplikasi ini menyajikan informasi detail seperti:
@@ -36,3 +26,13 @@ npm install
 # Run development server
 npm run dev
 >>>>>>> 58eb3adbcff33c4d488dd61a6c35f98c0185600f
+
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+=======
