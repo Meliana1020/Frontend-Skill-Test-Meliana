@@ -21,7 +21,7 @@ const Hero = () => {
           </Button>
         </Link>
       </div>
-      <img src="/hero.png" alt="A happy dog" className="lg:w-[31%] md:w-[44%] sm:w-[54%] w-[54%] object-contain" />
+      <img src="/hero.svg" alt="A happy dog" className="lg:w-[31%] md:w-[44%] sm:w-[54%] w-[54%] mt-10 lg:mt-20" />
     </div>
   );
 };
