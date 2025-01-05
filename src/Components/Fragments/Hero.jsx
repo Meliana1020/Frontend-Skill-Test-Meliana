@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className=" text-white flex flex-col lg:flex-row md:flex-row justify-center items-center lg:mx-10 my-6">
-      <div className="flex flex-col px-8">
+    <div className="flex-wrap text-white flex flex-col lg:flex-row md:flex-row justify-center items-center lg:mx-10">
+      <div className="flex flex-col px-8 mt-6">
         <div className="flex flex-row">
           <img src="/dog.svg" alt="Logo" className="lg:w-20 md:w-10 w-12 mb-4 " />
-          <h1 className="text-4xl lg:text-7xl font-bold ">DOGGIPEDIA</h1>
+          <h1 className="text-4xl lg:text-yellow-400 sm:text-green-600 md:text-red-600 lg:text-7xl font-bold ">DOGGIPEDIA</h1>
         </div>
         <p className="text-lg max-w-xl">
           Trusted source for all things dogs. Compiled by experts and dog
@@ -21,7 +21,7 @@ const Hero = () => {
           </Button>
         </Link>
       </div>
-      <img src="/hero.png" alt="A happy dog" className="lg:w-[31%] md:w-[44%] w-[54%]" />
+      <img src="/hero.png" alt="A happy dog" className="lg:w-[31%] md:w-[44%] sm:w-[54%] w-[54%] object-contain" />
     </div>
   );
 };
