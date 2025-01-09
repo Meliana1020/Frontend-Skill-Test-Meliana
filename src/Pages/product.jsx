@@ -1,4 +1,4 @@
-import ProductLayout from "../Components/Layouts/product";
+import ProductLayout from "../Components/Layouts/Product";
 
 const ProductPage = () => {
     return(
